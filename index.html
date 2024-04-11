@@ -237,14 +237,14 @@
 
     <main>
       <!-- <section class="py-5 text-center container"> -->
-      <section class="py-5 container">
+      <section class="py-5">
+        <div class="container">
         <div class="row py-lg-5">
-          <div class="col-lg-10 col-md-8 mx-auto">
+          <div class="col-12 col-md-8 mx-auto">
             <h1 class="fw-light">About Me!</h1>
             <h2>Jessica Lux</h2>
-            <img />
             <p>Link to my LinkedIn</p>
-            <p class="lead text-body-secondary">
+            <p class="lead text-body">
               Jessica Lux is a driven undergraduate student at the University of
               Central Florida (UCF), specializing in digital media and creative
               pursuits. With a background emphasizing discipline and
@@ -265,10 +265,12 @@
             </p>
             <p>Below, you can see some of my most recent projects!</p>
           </div>
+          <div class="col-12 col-md-4 mx-auto"><img src="assets/img/pictureOfMe.jpg" alt="Headshot" class="aboutImg"/></div>
         </div>
+      </div>
       </section>
 
-      <div class="album py-5 bg-body-tertiary">
+      <div class="album py-5 bg-body-secondary">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <!-- <div class="col"> -->
@@ -331,35 +333,22 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <!-- <title>Placeholder</title> -->
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <!-- <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text> -->
-                </svg>
+                <img src="assets/img/Exercise App.png" alt="Exercise App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/>
                 <div class="card-body">
                   <h4>Exercise App</h4>
                   <p class="card-text">
                     This project involved creating a simple exercise app with multiple screens. The home screen presents a menu of exercises that have been categorized and are displayed as styled buttons. Upon clicking a button, the corresponding exercise component is rendered, with the exercise name displayed at the top. Components are created to handle these exercises. The RepetitionExercise component allows users to increment a counter of repetitions and reset it, while the DurationExercise component enables users to start and reset a timer. The RepetitionDurationExercise component combines the increment counter and timer features.</p>
-                  <p>Problem and solution</p>
-                  <p>Highlight design choices and reasoning</p>
+                  <p>One challenge was getting the timer feature to work properly. It took some time to set the code up in a way that allowed the timer to function in the way I wanted.</p>
+                  <p>This project was the begining concept I built on for a later project. For that reason, I spent minial time on the design on the app. I wanted to ensure the app was functional first.</p>
                   <p>GIF or short video Recordings</p>
                   <h5>Skills Used</h5>
                   <ul>
                     <li>React.js</li>
                     <li>JavaScript</li>
                     <li>State Management</li>
-                    <li> Use of Conditional Statements</li>
+                    <li>Use of Conditional Statements</li>
                     <li>Handling Events</li>
                     <li>Utilizing Import/Export Components</li>
                     <li>Understanding of Props</li>
@@ -371,28 +360,26 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <!-- <title>Placeholder</title> -->
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
+                <img src="assets/img/simpleTodoApp.png" alt="Simple ToDo App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/>
                 <div class="card-body">
-                  <h4>Simplified ToDo App</h4>
+                  <h4>Simple ToDo App</h4>
                   <p class="card-text">This project involved creating a ToDo app using React Native. The FlatList component provided by React Native was utilized for efficient rendering of tasks. SafeAreaView is also employed to ensure compatibility with different device layouts CheckBoxes, Input, and text elements from React Native Elements are utilized to implement a task management interface. Default tasks are displayed from a state array, each with properties like a unique identifier, completion status, and description. Tasks are styled with a strikethrough effect if completed, and an input box allows users to add new tasks to the list.</p>
-                  <p>Problem and solution</p>
-                  <p>Highlight design choices and reasoning</p>
+                  <p>One challenge I faced was getting the check mark boxes to actually appear in color when selected.</p>
+                  <p>I wanted a monochromatic look for this page. I felt that would keep it simple, allowing to user to focus on the main point of the app which is to create your todo list and complete the tasks.</p>
                   <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
                   <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>CSS Styling and Implemention of Design Concepts</li>
                   </ul>
                 </div>
               </div>
@@ -400,28 +387,30 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <!-- <title>Placeholder</title> -->
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
+                <img src="assets/img/loginRegistrationApp.png" alt="Login and Registration ToDo App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/>
                 <div class="card-body">
-                  <h4>Image of Lab 8</h4>
-                  <p class="card-text">Description of lab 8</p>
-                  <p>Problem and solution</p>
-                  <p>Highlight design choices and reasoning</p>
+                  <h4>Login and Registration for ToDo App</h4>
+                  <p class="card-text">This project involved building a ToDo app using React Native and implementing features such as a Login screen, Registration screen, and navigation between them using React Navigation. The Login screen consists of two input fields for username and password, with corresponding buttons for login and registration. Upon login, the app navigates to the ToDo screen if the credentials match the stored data. The Registration screen includes input fields for personal details like first name, last name, username, password, etc., with validation for each field based on specific patterns using Regular Expressions. Error messages are displayed dynamically based on input validation, guiding users to enter correct information.</p>
+                  <p>One challenge I faced during this project involved making sure the information entered during the signup process was properly saved so it could be used later to login. After trying various versions of code I was finally able to find a solution to work.</p>
+                  <p>I chose to keep the colors consitent across all pages. I used brighter colors to help the buttons stand out.</p>
                   <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
                   <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>Handling Data</li>
+                    <li>Handling User Input</li>
+                    <li>React Navigation</li>
+                    <li>Use of Regular Expressions</li>
+                    <li>CSS Styling and Implemention of Design Concepts</li>
                   </ul>
                 </div>
               </div>
@@ -429,28 +418,28 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <!-- <title>Placeholder</title> -->
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
+                <img src="assets/img/lab9Screenshot.png" alt="Exercise App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/>
                 <div class="card-body">
-                  <h4>Image of Lab 9</h4>
-                  <p class="card-text">Description of lab 9</p>
-                  <p>Problem and solution</p>
-                  <p>Highlight design choices and reasoning</p>
+                  <h4>Exercise App</h4>
+                  <p class="card-text">This project involved building a React Native application with React Native Elements, focusing on creating a Home component that includes a FlatList of buttons for navigating to different exercises. Each exercise type is represented by a screen. The Home component utilizes React Native Element buttons within the FlatList. The DurationExercise, RepetitionExercise and RepetitionDurationExercise components are registered as screens and use navigation params to display activity names, allow users to increase activity count or start timers, and include options to reset activities. Each exercise in the array includes a "Suggested" exercise button for direct navigation and a "Home" button for returning to the Home screen, ensuring smooth navigation flow within the application.</p>
+                  <p>I struggled most with getting the "Suggested" button to work on all pages. It took a lot of time adjusting the code before I realized it was overly complicated. In order for the button to work, I just needed to keep the code very simple.</p>
+                  <p>I wanted the list of exercise buttons on the home to appear bright and eyecatching. On the individual pages, I decided it was best to keep the design simple so it was clear to the user how to make the timer and increment features work.</p>
                   <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
                   <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>Component Composition</li>
+                    <li>React Navigation</li>
+                    <li>CSS Styling and Implemention of Design Concepts</li>
                   </ul>
                 </div>
               </div>
@@ -458,28 +447,32 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                >
-                  <!-- <title>Placeholder</title> -->
-                  <rect width="100%" height="100%" fill="#55595c" />
-                </svg>
+                <img src="assets/img/lab10Screenshot.png" alt="Quiz App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/> 
                 <div class="card-body">
-                  <h4>Image of Lab 10</h4>
-                  <p class="card-text">Description of lab 10</p>
-                  <p>Problem and solution</p>
-                  <p>Highlight design choices and reasoning</p>
+                  <h4>Quiz App</h4>
+                  <p class="card-text">
+                    This project involved the development of a React Native quiz application that supports three types of questions: True/False, Multiple Choice, and Multiple Answer. The app includes a Question component and a Summary component.</p>
+                    <p>The Question component receives a list of questions and their corresponding answers as route parameters, allowing users to select their answers and navigate to the next question.</p>
+                    <p>The Summary component displays all questions, user-selected answers, and the correct answers, calculating and displaying the total score. Navigation between questions and to the Summary screen is facilitated by React Native Navigation. The app's functionality ensures that users cannot navigate back to previous questions, and it accurately totals the user's score based on their answers.</p>
+                  <p>One challenge I face was having the results properly show on the summary page. The multiple answer questions weren't highlighting the correct answers so I had to add additional code.</p>
+                  <p>I chose to keep the majority of the automatic formatting as I wanted all screens to keep a simplistic look.</p>
                   <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
                   <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>Component Composition</li>
+                    <li>React Navigation</li>
+                    <li>Data Handling</li>
+                    <li>CSS Styling and Implemention of Design Concepts</li>
                   </ul>
                 </div>
               </div>
@@ -490,13 +483,18 @@
         </div>
       </div>
       <section class="py-5 container">
-        <div>
-          <h1>Contact</h1>
-        </div>
-      </section>
+          <div class="container col-12 mx-auto">
+            <h2>Contact Me</h2>
+            <ul class="list-unstyled ">
+              <li><a href="https://www.linkedin.com/in/jessica-lux/">LinkedIn</a></li>
+              <li>Email: <b>je304923@.ucf.edu</b></li>
+            </ul>
+          </div>
+        </section>
+        
     </main>
 
-    <footer class="text-body-secondary py-5 bg-body-tertiary">
+    <footer class="text-body-secondary py-5 bg-body-secondary">
       <div class="container">
         <p class="float-end mb-1">
           <a href="#">Back to top</a>
