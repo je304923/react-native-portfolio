@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.aboutImg {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 4rem;
+  }
+
+.bgHeader {
+    background-color: #005768;
+}
+
+.bgLighter {
+    background-color: #e0f5f9;
+}
+
+.bgBlue {
+   
+    background-color: var(--bs-info-border-subtle);
+}
+
+.bgCard {
+    background-color: #e9f9fc;
+}
+

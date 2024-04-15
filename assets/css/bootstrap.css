@@ -600,6 +600,11 @@ progress {
   font-weight: 300;
 }
 
+.leadsm {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -12056,9 +12061,3 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
-
-.aboutImg {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-}
