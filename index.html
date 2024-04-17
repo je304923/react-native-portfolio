@@ -9,45 +9,16 @@
   </head>
 
 
-  <body>
-    <header data-bs-theme="dark">
-      <div class="collapse text-bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-            </div>
-
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">My Portfolio</h4>
-              <ul class="list-unstyled">
-                <li><a href="#about" class="text-white">About me</a></li>
-                <li><a href="#projects" class="text-white">Projects</a></li>
-                <li><a href="#contacts" class="text-white">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="navbar navbar-dark bgHeader shadow-sm">
-        <div class="container d-flex justify-contnent-between">
-          <a href="#" class="navbar-brand color-gold d-flex align-items-center">
-            <strong>Jessica Lux</strong>
-          </a>
-          <button
-            class="navbar-toggler collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarHeader"
-            aria-controls="navbarHeader"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
+  <body class="bgHeader">
+      <div class="container">
+      <header class="d-flex flex-wrap justify-content-center my-2">
+        <ul class="nav nav-pills">
+          <li class="nav-item navTextSize"><a href="#about" class="text-white nav-link">About me</a></li>
+                <li class="nav-item navTextSize"><a href="#projects" class="text-white nav-link">My Projects</a></li>
+                <li class="nav-item navTextSize"><a href="#contacts" class="text-white nav-link">Contact Me</a></li>
+        </ul>
+      </header>
+    </div>
 
     <main class= "bgLighter">
       <section class="py-4">
@@ -55,10 +26,15 @@
         <div class="container">
         <div class="row py-lg-4">
           <div class="col-12 col-md-8 mx-auto">
-            <h1 class="fw-bold">About Me!</h1>
+            <h1 class="fw-bold">About Me</h1>
             <h3 class="fw-semibold">Jessica Lux</h3>
-            <h5 class="fw-semibold">Link to my LinkedIn</h5>
-            <p class="lead text-body">
+            <h5 class="fw-bold">Contact Me</h5>
+            <ul class="list-unstyled ">
+              <li class="leadsm fw-semibold">Email: je304923@.ucf.edu</li>
+              <li class="leadsm fw-semibold"><a class="text-dark" href="https://www.linkedin.com/in/jessica-lux/">LinkedIn</a></li>
+            </ul>
+
+            <!-- <p class="lead text-body">
               Jessica Lux is a driven undergraduate student at the University of
               Central Florida (UCF), specializing in digital media and creative
               pursuits. With a background emphasizing discipline and
@@ -76,24 +52,125 @@
               professional pursuits, Jessica finds joy in teaching and inspiring
               children, as well as exploring her creativity through various
               hobbies.
+            </p> -->
+            <p class="lead text-body">
+              Jessica Lux is a driven website manager and designer.               Currently, as a Digital Journalist and Designer at Positively
+              Osceola, she is talented at crafting engaging content and visuals for
+              the digital newspaper, showcasing her proficiency in Adobe
+              Creative Suite and web design.</p>
+              <p class="lead text-body">Alongside her professional roles, Jessica's commitment to educating others shines through her work as a Nature Center Naturalist, where she designs enriching programming for children and families.</p>
+              <p class="lead text-body">With certifications in React Native, React.js, WordPress, and JavaScript, as well as a Digital Media degree in-progress at the University of Central Florida, Jessica's  problem-solving and organizational skills showcase her versatility and dedication to growth.</p>
+              <p class="lead text-body">Outside of her academic and professional pursuits, Jessica finds joy in teaching and inspiring children, as well as exploring her creativity through various hobbies, such as dance, crafting and baking.
             </p>
-            <p class="lead text-body fw-medium">Below, you can see some of my most recent projects!</p>
+            <p class="lead text-body fw-medium">Below, you can see some of my most recent projects.</p>
           </div>
           <div class="col-12 col-md-4 mx-auto "><img src="assets/img/pictureOfMe.jpg" alt="Headshot" class="aboutImg"/></div>
         </div>
       </div>
       </section>
 
-      <div class="album py-5 bgBlue bg-opacity-50">
+      <div class="album py-4 bgBlue bg-opacity-50">
         <a name="projects"></a>
-        
         <div class="container py-lg-4">
-          <h1 class="fw-bold">My Projects!</h1>
+          <h1 class="fw-bold">My Projects</h1>
           <div class="my-md-1 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            
             <div class="col">
               <div class="card shadow bgCard">
-                <img src="assets/img/Object-oriented Design.png" class="bd-placeholder-img card-img-top "
+                <img src="assets/img/lab9Screenshot.png" alt="Exercise App"
+                class="bd-placeholder-img card-img-top"
                 width="100%"/>
+                <div class="card-body">
+                  <h4>Exercise App</h4>
+                  <p class="card-text">This project involved building a React Native application with React Native Elements, focusing on creating a Home component that includes a FlatList of buttons for navigating to different exercises. Each exercise type is represented by a screen. The Home component utilizes React Native Element buttons within the FlatList. The DurationExercise, RepetitionExercise and RepetitionDurationExercise components are registered as screens and use navigation params to display activity names, allow users to increase activity count or start timers, and include options to reset activities. Each exercise in the array includes a "Suggested" exercise button for direct navigation and a "Home" button for returning to the Home screen, ensuring smooth navigation flow within the application.</p>
+                  <p>I struggled most with getting the "Suggested" button to work on all pages. It took a lot of time adjusting the code before I realized it was overly complicated. In order for the button to work, I just needed to keep the code very simple.</p>
+                  <p>I wanted the list of exercise buttons on the home to appear bright and eyecatching. On the individual pages, I decided it was best to keep the design simple so it was clear to the user how to make the timer and increment features work.</p>
+                  <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
+                  <ul>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>Component Composition</li>
+                    <li>React Navigation</li>
+                    <li>CSS Styling and Implementation  of Design Concepts</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow bgCard">
+                <img src="assets/img/loginRegistrationApp.png" alt="Login and Registration ToDo App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/>
+                <div class="card-body">
+                  <h4>Login and Registration for ToDo App</h4>
+                  <p class="card-text">This project involved building a ToDo app using React Native and implementing features such as a Login screen, Registration screen, and navigation between them using React Navigation. The Login screen consists of two input fields for username and password, with corresponding buttons for login and registration. Upon login, the app navigates to the ToDo screen if the credentials match the stored data. The Registration screen includes input fields for personal details like first name, last name, username, password, etc., with validation for each field based on specific patterns using Regular Expressions. Error messages are displayed dynamically based on input validation, guiding users to enter correct information.</p>
+                  <p>One challenge I faced during this project involved making sure the information entered during the signup process was properly saved so it could be used later to login. After trying various versions of code I was finally able to find a solution to work.</p>
+                  <p>I chose to keep the colors consitent across all pages. I used brighter colors to help the buttons stand out.</p>
+                  <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
+                  <ul>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>Handling Data</li>
+                    <li>Handling User Input</li>
+                    <li>React Navigation</li>
+                    <li>Use of Regular Expressions</li>
+                    <li>CSS Styling and Implementation  of Design Concepts</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow bgCard">
+                <img src="assets/img/lab10Screenshot.png" alt="Quiz App"
+                class="bd-placeholder-img card-img-top"
+                width="100%"/> 
+                <div class="card-body">
+                  <h4>Quiz App</h4>
+                  <p class="card-text">
+                    This project involved the development of a React Native quiz application that supports three types of questions: True/False, Multiple Choice, and Multiple Answer. The app includes a Question component and a Summary component.</p>
+                    <p>The Question component receives a list of questions and their corresponding answers as route parameters, allowing users to select their answers and navigate to the next question.</p>
+                    <p>The Summary component displays all questions, user-selected answers, and the correct answers, calculating and displaying the total score. Navigation between questions and to the Summary screen is facilitated by React Native Navigation. The app's functionality ensures that users cannot navigate back to previous questions, and it accurately totals the user's score based on their answers.</p>
+                  <p>One challenge I face was having the results properly show on the summary page. The multiple answer questions weren't highlighting the correct answers so I had to add additional code.</p>
+                  <p>I chose to keep the majority of the automatic formatting as I wanted all screens to keep a simplistic look.</p>
+                  <p>GIF or short video Recordings</p>
+                  <h5>Skills Used</h5>
+                  <ul>
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>State Management</li>
+                    <li>Use of Conditional Statements</li>
+                    <li>Use of React Native Elements</li>
+                    <li>Handling Events</li>
+                    <li>Utilizing Import/Export Components</li>
+                    <li>Understanding of Props</li>
+                    <li>Component Composition</li>
+                    <li>React Navigation</li>
+                    <li>Data Handling</li>
+                    <li>CSS Styling and Implementation  of Design Concepts</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card shadow bgCard">
+                <img src="assets/img/Object-oriented Design.png" class="bd-placeholder-img card-img-top"/>
                 <div class="card-body ">
                   <h4>Object-Oriented Design Practice</h4>
                   <p class="card-text">This project involved completing tasks within a provided codebase. This project was for practice only as it was meant to be an introduction to using React. After locating comments  in the code with directions it was time to complete the tasks. The tasks involved rendering menu items, maintaining menu state using the state hook, implementing an "addMenuItem" callback hook, and filtering menu items based on user input. Each task was systematically addressed to ensure the proper functioning of the Sidebar component, adhering to the specified requirements and expected behavior as detailed in the provided steps.</p>
@@ -169,113 +246,18 @@
                 </div>
               </div>
             </div>
-
-            
-
-            <div class="col">
-              <div class="card shadow bgCard">
-                <img src="assets/img/loginRegistrationApp.png" alt="Login and Registration ToDo App"
-                class="bd-placeholder-img card-img-top"
-                width="100%"/>
-                <div class="card-body">
-                  <h4>Login and Registration for ToDo App</h4>
-                  <p class="card-text">This project involved building a ToDo app using React Native and implementing features such as a Login screen, Registration screen, and navigation between them using React Navigation. The Login screen consists of two input fields for username and password, with corresponding buttons for login and registration. Upon login, the app navigates to the ToDo screen if the credentials match the stored data. The Registration screen includes input fields for personal details like first name, last name, username, password, etc., with validation for each field based on specific patterns using Regular Expressions. Error messages are displayed dynamically based on input validation, guiding users to enter correct information.</p>
-                  <p>One challenge I faced during this project involved making sure the information entered during the signup process was properly saved so it could be used later to login. After trying various versions of code I was finally able to find a solution to work.</p>
-                  <p>I chose to keep the colors consitent across all pages. I used brighter colors to help the buttons stand out.</p>
-                  <p>GIF or short video Recordings</p>
-                  <h5>Skills Used</h5>
-                  <ul>
-                    <li>React Native</li>
-                    <li>JavaScript</li>
-                    <li>State Management</li>
-                    <li>Use of Conditional Statements</li>
-                    <li>Use of React Native Elements</li>
-                    <li>Handling Events</li>
-                    <li>Utilizing Import/Export Components</li>
-                    <li>Understanding of Props</li>
-                    <li>Handling Data</li>
-                    <li>Handling User Input</li>
-                    <li>React Navigation</li>
-                    <li>Use of Regular Expressions</li>
-                    <li>CSS Styling and Implementation  of Design Concepts</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow bgCard">
-                <img src="assets/img/lab9Screenshot.png" alt="Exercise App"
-                class="bd-placeholder-img card-img-top"
-                width="100%"/>
-                <div class="card-body">
-                  <h4>Exercise App</h4>
-                  <p class="card-text">This project involved building a React Native application with React Native Elements, focusing on creating a Home component that includes a FlatList of buttons for navigating to different exercises. Each exercise type is represented by a screen. The Home component utilizes React Native Element buttons within the FlatList. The DurationExercise, RepetitionExercise and RepetitionDurationExercise components are registered as screens and use navigation params to display activity names, allow users to increase activity count or start timers, and include options to reset activities. Each exercise in the array includes a "Suggested" exercise button for direct navigation and a "Home" button for returning to the Home screen, ensuring smooth navigation flow within the application.</p>
-                  <p>I struggled most with getting the "Suggested" button to work on all pages. It took a lot of time adjusting the code before I realized it was overly complicated. In order for the button to work, I just needed to keep the code very simple.</p>
-                  <p>I wanted the list of exercise buttons on the home to appear bright and eyecatching. On the individual pages, I decided it was best to keep the design simple so it was clear to the user how to make the timer and increment features work.</p>
-                  <p>GIF or short video Recordings</p>
-                  <h5>Skills Used</h5>
-                  <ul>
-                    <li>React Native</li>
-                    <li>JavaScript</li>
-                    <li>State Management</li>
-                    <li>Use of Conditional Statements</li>
-                    <li>Use of React Native Elements</li>
-                    <li>Handling Events</li>
-                    <li>Utilizing Import/Export Components</li>
-                    <li>Understanding of Props</li>
-                    <li>Component Composition</li>
-                    <li>React Navigation</li>
-                    <li>CSS Styling and Implementation  of Design Concepts</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow bgCard">
-                <img src="assets/img/lab10Screenshot.png" alt="Quiz App"
-                class="bd-placeholder-img card-img-top"
-                width="100%"/> 
-                <div class="card-body">
-                  <h4>Quiz App</h4>
-                  <p class="card-text">
-                    This project involved the development of a React Native quiz application that supports three types of questions: True/False, Multiple Choice, and Multiple Answer. The app includes a Question component and a Summary component.</p>
-                    <p>The Question component receives a list of questions and their corresponding answers as route parameters, allowing users to select their answers and navigate to the next question.</p>
-                    <p>The Summary component displays all questions, user-selected answers, and the correct answers, calculating and displaying the total score. Navigation between questions and to the Summary screen is facilitated by React Native Navigation. The app's functionality ensures that users cannot navigate back to previous questions, and it accurately totals the user's score based on their answers.</p>
-                  <p>One challenge I face was having the results properly show on the summary page. The multiple answer questions weren't highlighting the correct answers so I had to add additional code.</p>
-                  <p>I chose to keep the majority of the automatic formatting as I wanted all screens to keep a simplistic look.</p>
-                  <p>GIF or short video Recordings</p>
-                  <h5>Skills Used</h5>
-                  <ul>
-                    <li>React Native</li>
-                    <li>JavaScript</li>
-                    <li>State Management</li>
-                    <li>Use of Conditional Statements</li>
-                    <li>Use of React Native Elements</li>
-                    <li>Handling Events</li>
-                    <li>Utilizing Import/Export Components</li>
-                    <li>Understanding of Props</li>
-                    <li>Component Composition</li>
-                    <li>React Navigation</li>
-                    <li>Data Handling</li>
-                    <li>CSS Styling and Implementation  of Design Concepts</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
             </div>   
             </div>
           </div>
         </div>
       </div>
       <section class="py-4 container">
-        <a name="contact"></a>
+        <a name="contacts"></a>
           <div class="container col-12 mx-auto">
             <h1 class="fw-bold">Contact Me</h1>
             <ul class="list-unstyled ">
               <li class="leadsm fw-semibold">Email: <b>je304923@.ucf.edu</b></li>
-              <li class="leadsm fw-semibold"><a href="https://www.linkedin.com/in/jessica-lux/">LinkedIn</a></li>
+              <li class="leadsm fw-semibold"><a class="text-dark" href="https://www.linkedin.com/in/jessica-lux/">LinkedIn</a></li>
               
             </ul>
           </div>
