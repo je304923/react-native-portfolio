@@ -22,7 +22,7 @@ a:hover {
   }
 
 .bgHeader {
-    background-color: #005768;
+    background-color: #0f687e;
 }
 
 .bgLighter {
@@ -38,3 +38,11 @@ a:hover {
     background-color: #e9f9fc;
 }
 
+.skillImages {
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.gifStyle {
+   border-bottom: 1px solid #0000002d;
+}
