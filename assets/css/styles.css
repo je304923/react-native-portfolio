@@ -10,6 +10,10 @@ a:hover {
     font-size: 1.5rem;
 }
 
+.leadsm {
+    font-size: 1.1em;
+  }
+
 .aboutImg {
     display: block;
     width: 90% !important;
