@@ -14,6 +14,11 @@ a:hover {
     font-size: 1.1em;
   }
 
+.linkedinTop {
+    font-size: 1.5em;
+    font-weight: bold !important;
+}
+
 .aboutImg {
     display: block;
     width: 90% !important;
